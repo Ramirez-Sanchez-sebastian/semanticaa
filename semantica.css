@@ -1,0 +1,172 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100hv;
+    justify-content: center;                                
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;  /* permite que quede por encima */
+}
+.header img
+{
+    max-width: 50px;
+    position: absolute;
+    left: 20px;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+header nav ul
+{
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+main
+{
+    margin-left: 200px;
+}
+
+.section-conteiner
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-sections
+{
+    display: flex;
+}
+
+section
+{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+section h2
+{
+    color: blue;
+}
+
+section p
+{
+    color: brown;
+}
+
+
+aside
+{
+    width: 150px;
+    background-color: blue;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+
+aside h2
+{
+    color: rgb(255, 0, 0);
+    margin-top: 220px;
+}
+
+aside p
+{
+    color: rgb(43, 226, 92);
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.top-sections img
+{
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
